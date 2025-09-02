@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: rubik, sans-serif;
+  overflow-x: hidden;
+  color: #1e2f5a;
+}
+
+body {
+  background-size: 100%;
+  background-image: url(images/pattern-background-desktop.svg);
+  height: 100vh;
+  background-position: 50% -40%;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+}
+
+/* CARD */
+
+.section-card {
+  padding: 10rem;
+  height: auto;
+}
+
+.music-card {
+  background-color: #fff;
+  max-width: 45.1rem;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.music-card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  margin-bottom: 4.2rem;
+}
+
+.music-card-text {
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: rubik, sans-serif;
+  padding-bottom: 4.8rem;
+  height: 2rem;
+}
+
+.music-card-heading {
+  text-align: center;
+  padding: 0 4.8rem 0 4.8rem;
+  color: #798093;
+  font-size: 1.6rem;
+  font-weight: none;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+/* PRICE */
+
+.price-plan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f8f9fe;
+  gap: 1.2rem;
+  padding: 2.4rem 1.4rem;
+  border-radius: 10px;
+  margin: 3rem 3rem;
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+
+.annual-plan {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.price {
+  color: #798093;
+  margin: 0.4rem 0 0;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.price-link {
+  margin-left: 9.6rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+.music-icon {
+  width: 5.6rem;
+  height: 5.6rem;
+  background: #e9eafc;
+  border-radius: 50%;
+}
+
+/* Button */
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: rubik, sans-serif;
+  color: #1e2f5a;
+}
+
+.btn-proceed {
+  width: 87%;
+  border-radius: 10px;
+  background-color: #382ae1;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 0;
+  margin-bottom: 1rem;
+  border: 1px #fff;
+  box-shadow: 0px 18px 18px rgba(57, 42, 225, 0.151);
+}
+
+.btn-proceed:hover {
+  width: 87%;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #382ae1;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 0;
+  outline: 1px solid #382ae1;
+}
+
+.btn-cancel {
+  background-color: transparent;
+  width: 87%;
+  border: none;
+  border-radius: 10px;
+  padding: 1.6rem 0;
+  margin-bottom: 3.2rem;
+  font-size: 1.6rem;
+  font-family: rubik, sans-serif;
+  color: #798093;
+  font-weight: 600;
+}
+
+.btn-cancel:hover {
+  background-color: transparent;
+  width: 87%;
+  border: none;
+  border-radius: 10px;
+  padding: 1.6rem 0;
+  font-size: 1.6rem;
+  font-family: rubik, sans-serif;
+  color: #382ae1;
+  font-weight: 600;
+}
