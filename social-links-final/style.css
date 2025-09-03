@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #141414;
+}
+
+.section-card {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: #1f1f1f;
+  width: 45rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 9.6rem;
+  height: 9.6rem;
+  margin-top: 4.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.name {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.london {
+  font-size: 1.6rem;
+  margin-bottom: 2.8rem;
+  color: #9fda52;
+}
+
+.description {
+  font-size: 1.6rem;
+  margin-bottom: 2.6rem;
+}
+
+/* Button     STOP here */
+
+.btn-container {
+  font-family: inter, sans-serif;
+  font-size: 1.6rem;
+  border-radius: 0 0 10px 10px;
+  padding: 0rem 4.8rem 4.8rem 4.8rem;
+  font-weight: 600;
+}
+
+.btn-list {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 5.6rem;
+  border-radius: 10px;
+  background-color: #333333;
+  margin: 2.4rem 0 2.4rem 0;
+}
+
+.btn:hover {
+  transition: all 0.1s ease-in;
+  color: #9fda52;
+  background-color: #414141;
+}
+
+.btn-list a {
+  text-decoration: none;
+}
