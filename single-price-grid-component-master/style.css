@@ -1,0 +1,153 @@
+/* :root {
+  --space: clamp(16px, 4vw, 32px);
+  --pad: clamp(16px, 3vw, 40px);
+  --radius: 10px;
+} */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e6eff6;
+  font-family: Karla, Sans-serif;
+}
+
+/* COMMUNITY INFO SECTION */
+
+.info_card,
+.grid {
+  height: 50rem;
+  margin: 30rem 60rem 30rem 60rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.1);
+}
+
+.nav_card {
+  border-radius: 10px 10px 0 0;
+  grid-column: span 2;
+  padding: 4.6rem;
+  background-color: #ffffff;
+}
+
+.join_community {
+  font-size: 2.6rem;
+  color: #63aba7;
+  padding-bottom: 2.4rem;
+}
+
+.money_back {
+  font-size: 2rem;
+  color: #c0df34;
+  padding-bottom: 1.2rem;
+}
+
+.info_card_description {
+  text-align: left;
+  font-size: 1.8rem;
+  color: #4abebd;
+  line-height: 1.6;
+}
+
+/* PRICE SECTION */
+
+.subscription {
+  background-color: #30c9c6;
+  text-align: left;
+  padding: 4.6rem 4.2rem;
+  border-radius: 0 0 0px 10px;
+}
+
+.monthly_subscription {
+  color: #f8fdff;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 3.6rem;
+  color: #f8fdff;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.monthly {
+  color: #5df5f2;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.full_access {
+  color: #f8fdff;
+  font-size: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #c0df34;
+  color: #f8fdff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: Karla, Sans-serif;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn:hover {
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #e6e22b;
+  color: #eff6fa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  font-family: Karla, Sans-serif;
+  border-radius: 6px;
+  border: none;
+}
+/* WHY US SECTION */
+
+.why_us {
+  background-color: #56d8d6;
+  text-align: left;
+  padding: 4.6rem 4.2rem;
+  border-radius: 0 0 10px 0px;
+}
+
+.why {
+  color: #f8fdff;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.why_info {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #f8fdff;
+  line-height: 1.4;
+  list-style: none;
+}
