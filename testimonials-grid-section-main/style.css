@@ -1,0 +1,346 @@
+/* RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #e7eaee;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* DANIEL CLIFFORD SECTION */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 92%;
+  max-width: 130rem;
+  margin: 20rem 15rem;
+  gap: 3rem;
+}
+
+.daniel-clifford {
+  grid-column: span 2;
+  background-color: #7541c8;
+  border-radius: 10px;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 0%;
+  background-size: 20%;
+}
+
+.profile-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 3.8rem 1.8rem 2rem 3rem;
+  border: 2px solid #c4a2f6;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.2;
+  color: #eee5ff;
+  font-weight: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 2rem 0 0.6rem 0;
+}
+
+.verified {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #eee5ff;
+}
+
+/* INFO */
+
+.description {
+  margin: 0 3rem 2rem 3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #eee5ff;
+}
+
+.testimonial {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #eee5ff;
+  margin: 0 3rem 3.6rem 3rem;
+  line-height: 1.4;
+}
+
+/* JONATHAN SECTION*/
+
+.jonathan-walters {
+  background-color: #49556b;
+  border-radius: 10px;
+  grid-column: 3;
+}
+
+.profile-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.img-jonathan {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 3.6rem 1.8rem 2rem 3.6rem;
+}
+
+.jonathan {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.2;
+  color: #e7eaee;
+  font-weight: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1.8rem 0 0.6rem 0;
+}
+
+.verified-jonathan {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #e7eaee;
+}
+
+/* INFO */
+
+.jonathan-description {
+  margin: 0 3rem 2rem 3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #e7eaee;
+}
+
+.jonathan-testimonial {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #e7eaee;
+  margin: 0 3rem 3.6rem 3rem;
+  line-height: 1.4;
+}
+
+/* KIRA SECTION*/
+
+.kira-whittle {
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 4;
+  grid-row: span 2;
+}
+
+.profile-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.img-kira {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 3.6rem 1.8rem 2rem 3.6rem;
+}
+
+.kira {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.2;
+  color: #676d7e;
+  font-weight: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.8rem 0 0.6rem 0;
+}
+
+.verified-kira {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #676d7e;
+}
+
+/* INFO */
+
+.kira-description {
+  margin: 0 3rem 2rem 3rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #676d7e;
+}
+
+.kira-testimonial {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #676d7e;
+  margin: 0 3rem 3.6rem 3rem;
+  line-height: 1.4;
+}
+
+/* JEANETTE SECTION*/
+
+.jeanette-harmon {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.profile-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.img-jeanette {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 4.6rem 1.8rem 2rem 4rem;
+}
+
+.jeanette {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.2;
+  color: #676d7e;
+  font-weight: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2.8rem 0 0.6rem 0;
+}
+
+.verified-jeanette {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #676d7e;
+}
+
+/* INFO */
+
+.jeanette-description {
+  margin: 0 3.4rem 2rem 3.4rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #676d7e;
+}
+
+.jeanette-testimonial {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #676d7e;
+  margin: 0 3.2rem 0rem 3.2rem;
+  line-height: 1.4;
+}
+
+/* PATRICK SECTION */
+
+.patrick-abrams {
+  background-color: #191f2d;
+  border-radius: 10px;
+  grid-column: span 2;
+}
+
+.profile-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.img-patrick {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 4.6rem 1.8rem 2rem 4rem;
+}
+
+.patrick {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.2;
+  color: #e7eaee;
+  font-weight: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2.8rem 0 0.6rem 0;
+}
+
+.verified-patrick {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #e7eaee;
+}
+
+/* INFO */
+
+.patrick-description {
+  margin: 0 3.4rem 2rem 3.4rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #e7eaee;
+}
+
+.patrick-testimonial {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #e7eaee;
+  margin: 0 3.2rem 0rem 3.2rem;
+  line-height: 1.5;
+}

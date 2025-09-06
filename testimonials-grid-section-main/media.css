@@ -1,0 +1,84 @@
+@media (max-width: 1400px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 92%;
+    max-width: 130rem;
+    margin: 20rem 0rem;
+    gap: 3rem;
+  }
+
+  .jonathan-testimonial,
+  .jeanette-testimonial,
+  .patrick-testimonial,
+  .testimonial {
+    font-size: 2.2rem;
+  }
+
+  .kira-testimonial {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 92%;
+    max-width: 130rem;
+
+    margin: 20rem 0rem;
+    gap: 3rem;
+  }
+
+  .daniel-clifford,
+  .jonathan-walters,
+  .kira-whittle,
+  .jeanette-harmon,
+  .patrick-abrams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .jonathan-testimonial,
+  .jeanette-testimonial,
+  .patrick-testimonial,
+  .testimonial {
+    font-size: 2.2rem;
+  }
+
+  .kira-testimonial {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    align-items: start;
+    grid-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .daniel-clifford,
+  .jonathan-walters,
+  .kira-whittle,
+  .jeanette-harmon,
+  .patrick-abrams {
+    grid-column: span 2;
+  }
+
+  .jeanette-harmon,
+  .patrick-abrams {
+    padding-bottom: 3.2rem;
+  }
+
+  .jeanette-testimonial,
+  .patrick-testimonial,
+  .testimonial {
+    font-size: 1.8rem;
+  }
+}
